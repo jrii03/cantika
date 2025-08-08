@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Custom colors untuk proyek Cantika */
+@theme {
+  --color-soft-terracotta: #E6A88F;
+  --color-peach: #F8C4B4;
+  --color-sage-green: #B8C4A4;
+  --color-dusty-blue: #A4B8C4;
+}
+
+/* Custom styles */
+.slow-fade {
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #E6A88F;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}

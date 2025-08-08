@@ -1,0 +1,12 @@
+{
+  "name": "cantika-website",
+  "version": "1.0.0",
+  "scripts": {
+    "build-css": "tailwindcss -i src/input.css -o dist/output.css",
+    "watch-css": "tailwindcss -i src/input.css -o dist/output.css --watch",
+    "dev": "tailwindcss -i src/input.css -o dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
+  }
+}

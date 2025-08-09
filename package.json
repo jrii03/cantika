@@ -1,13 +1,13 @@
 {
   "name": "cantika-website",
   "version": "1.0.0",
-  "scripts": {
-    "build:css": "tailwindcss -i src/input.css -o dist/output.css",
-    "copy:html": "copyfiles -u 1 *.html dist",
-    "copy:assets": "copyfiles -u 1 assets/**/* dist",
-    "build": "npm-run-all build:css copy:html copy:assets",
-    "dev": "tailwindcss -i src/input.css -o dist/output.css --watch"
-  },
+ "scripts": {
+  "build:css": "tailwindcss -i src/input.css -o dist/output.css",
+  "copy:html": "copyfiles *.html dist",
+  "copy:assets": "copyfiles assets/**/* dist",
+  "build": "npm-run-all build:css copy:html copy:assets",
+  "dev": "tailwindcss -i src/input.css -o dist/output.css --watch"
+},
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "copyfiles": "^2.4.1",

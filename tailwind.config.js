@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./*.html",
-    "./src/**/*.{js,ts,jsx,tsx,html}",
+    './*.{html,js}', // Ini akan memindai index.html
+    './src/**/*.{html,js}', // Ini akan memindai semua file di dalam folder src
+    './assets/**/*.{html,js}' // Ini akan memindai folder assets jika ada
   ],
   theme: {
     extend: {

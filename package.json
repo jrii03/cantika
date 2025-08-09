@@ -2,7 +2,8 @@
   "name": "cantika-website",
   "version": "1.0.0",
  "scripts": {
-  "build:css": "tailwindcss -i src/input.css -o dist/output.css",
+  "build:css": "tailwindcss -i src/input.css -o dist/output.css --minify",
+  "build:css-dev": "tailwindcss -i src/input.css -o dist/output.css",
   "copy:html": "copyfiles *.html dist",
   "copy:assets": "copyfiles assets/**/* dist",
   "build": "npm-run-all build:css copy:html copy:assets",

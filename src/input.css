@@ -1,12 +1,6 @@
-@import "tailwindcss";
-
-/* Custom colors untuk proyek Cantika */
-@theme {
-  --color-soft-terracotta: #E6A88F;
-  --color-peach: #F8C4B4;
-  --color-sage-green: #B8C4A4;
-  --color-dusty-blue: #A4B8C4;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Custom styles */
 .slow-fade {

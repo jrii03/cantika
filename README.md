@@ -1,6 +1,6 @@
 # Cantika Website
 
-Website personal yang dibuat dengan HTML dan Tailwind CSS v4.1.11.
+Website personal yang dibuat dengan HTML dan Tailwind CSS v3.4.14.
 
 ## Setup
 
@@ -44,6 +44,8 @@ cantika/
 ├── asset/
 │   └── cantika.jpg        # Gambar profil
 ├── cantika.html           # File HTML utama
+├── tailwind.config.js     # Konfigurasi Tailwind CSS
+├── postcss.config.js      # Konfigurasi PostCSS
 ├── package.json           # Konfigurasi npm dan scripts
 └── README.md             # Dokumentasi ini
 ```
@@ -63,13 +65,13 @@ Website ini menggunakan warna-warna khusus yang didefinisikan di `src/input.css`
 - `.nav-link:hover`: Efek hover untuk navigasi
 - `.btn:active`: Efek klik untuk tombol
 
-## Tailwind CSS v4
+## Tailwind CSS v3
 
-Proyek ini menggunakan Tailwind CSS versi 4.1.11 yang memiliki fitur:
-- Tidak memerlukan file konfigurasi tradisional
-- Menggunakan CSS custom properties
-- Syntax yang lebih sederhana
-- Performa yang lebih baik
+Proyek ini menggunakan Tailwind CSS versi 3.4.14 yang memiliki fitur:
+- Konfigurasi melalui file `tailwind.config.js`
+- Kompatibilitas yang sangat baik dengan berbagai platform
+- Dukungan komunitas yang luas
+- Stabilitas untuk production
 
 ## Browser Support
 

@@ -15,6 +15,7 @@ module.exports = {
         'peach': '#F8C4B4',
         'sage-green': '#B8C4A4',
         'dusty-blue': '#A4B8C4',
+        'blue-sea': '#b3d5f0',
       }
     },
   },
